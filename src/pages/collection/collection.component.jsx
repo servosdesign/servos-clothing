@@ -6,8 +6,8 @@ import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
  
 const CollectionPage = () => {
-  let params = useParams();
-  const collection = useSelector(selectCollection(params.collectionId));
+  const { collectionId } = useParams();
+  const collection = useSelector(selectCollection(collectionId));
   const { title, items } = collection;
  
   return (
