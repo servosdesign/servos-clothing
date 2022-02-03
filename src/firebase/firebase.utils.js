@@ -1,7 +1,6 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import 'firebase/compat/auth';
-import { resolvePath } from 'react-router-dom';
 
 const config = {
   apiKey: "AIzaSyCHVIgpxvNcCAkyhWPdQtzvjlqPwYwB2Uc",
