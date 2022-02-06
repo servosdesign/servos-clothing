@@ -1,1 +1,1 @@
-#### E-commerce app with Redux, Hooks, GraphQL, ContextAPI, Stripe, Firebase
+#### E-commerce app with Redux, Hooks, Stripe, Firebase
