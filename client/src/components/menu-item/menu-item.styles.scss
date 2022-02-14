@@ -55,6 +55,13 @@
     background-size: cover;
   }
 
+  @media screen and (max-width: 800px) {
+    
+    &.large {
+      height: 240px;
+    }
+  }
+
   .content {
     height: 90px;
     padding: 0 25px;
